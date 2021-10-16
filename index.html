@@ -10,7 +10,7 @@
         body {
             background-color: rgb(27, 27, 27);
         }
-        h1, h2, p, ul {
+        h1, h2, h3, p {
             color: rgb(255, 252, 246);
             font-family: sans-serif;
             text-align: center;
@@ -24,16 +24,39 @@
     </style>
 </head>
 <body>
-    <h1>Cartaz Online</h1>
-    <h2>Filmes</h2>
-    <p>Essa é a <strong>nossa</strong> listinha de filmes para assistirmos juntos! &#x1F37F;&#x2764;</p>
-    <p>Para começarmos, selecione a categoria do filme que deseja assistir:</p>
+    <h1>Cartaz Online de Filmes</h1>
+    <h2>Seja bem-vindo(a)!</h2>
+    <p>Essa é a <strong>nossa</strong> "listinha" de filmes para assistirmos juntos! &#x1F37F;&#x2764;</p>
+    <p>É bem simples, basta selecionar a <em>categoria</em> desejada (apertando na imagem) e você verá a lista de filmes para ela! Demais, né? Então bora escolher um filme pô!</p>
+    <h3>Categorias</h3>
 
-    <p>Ação</p>
-    <p>Aventura</p>
-    <p><strong>Drama</strong> <br> <a href="pag03.html" target="_self" rel="next"> <img src="imagens/capa-drama-300.jpg" alt="capa-drama"> </a></p>
-    <p>Romance</p>
+    <p><strong>Ação &#x1F4A5;</strong></p>
+
+    <p><strong>Aventura &#x26FA;</strong></p>
+
+    <p><strong>Drama &#x1F927;</strong> <br>
+        <a href="pag03.html" target="_self" rel="next">
+            <picture>
+                <source media="(max-width: 550px)" srcset="imagens/capa-drama-300.jpg" type="image/jpg">
+                <source media="(max-width: 750px)" srcset="imagens/capa-drama-500.jpg" type="image/jpg">
+                <img src="imagens/capa-drama-700.jpg" alt="Capa Drama">
+            </picture>
+        </a>
+    </p>
+
+    <p><strong>Romance &#x1F970;</strong></p>
+
+    <p><strong style="color: orange;">Já assistidos</strong> <br>
+        <a href="#" target="_self" rel="next">
+            <picture>
+                <source media="(max-width: 550px)" srcset="imagens/capa-assistidos-300.jpg" type="image/jpg">
+                <source media="(max-width: 750px)" srcset="imagens/capa-assistidos-500.jpg" type="image/jpg">
+                <img src="imagens/capa-assistidos-700.jpg" alt="Capa Assistidos">
+            </picture>
+        </a>
+    </p>
 
 </body>
-<footer>Criado com amor por Filipe Gallo. &#x2764;</footer>
+<footer>Criado com amor e carinho por <a href="https://www.instagram.com/filipe.gallo/" target="_blank" rel="external" style="color: rgb(173, 255, 157);">
+    Filipe Gallo</a>. &#x2764;</footer>
 </html>
