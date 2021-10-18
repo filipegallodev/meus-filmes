@@ -4,22 +4,38 @@ body {
     background-color: rgb(27, 27, 27);
 }
 
-h2, p, ul, li {
+h2 {
     color: rgb(255, 252, 246);
     font-family: sans-serif;
     text-align: center;
+    font-size: 1.9em;
+}
+
+ul, li {
+    color: rgb(255, 252, 246);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 250, 240);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 19px;
 }
 
 h1 {
     color: rgb(255, 136, 136);
     font-family: sans-serif;
     text-align: center;
+    font-size: 2.5em;
 }
 
 h3 {
     color: rgb(255, 214, 161);
     font-family: sans-serif;
     text-align: center;
+    font-size: 1.4em;
 }
 
 footer {
@@ -27,4 +43,5 @@ footer {
     background-color: rgb(12, 12, 12);
     shape-margin: 100px;
     text-align: center;
+    font-size: 1.2em;
 }
