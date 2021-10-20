@@ -1,49 +1,55 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgba(3, 6, 31, 0.904);
+    background-color: rgba(0, 0, 17, 0.89);
+    margin: 0;
+}
+
+.header {
+    border-bottom: 2.7px rgb(255, 196, 0) solid;
+    border-left: 3px rgb(255, 196, 0) solid;
+    border-radius: 0 0 100px 200px;
+    padding: 10px 150px;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 0px 15px rgb(26, 26, 26);
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 119, 255);
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 15px rgb(26, 26, 26);
 }
 
 h2 {
     color: rgb(0, 119, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 1.9em;
 }
 
+h3 {
+    color: rgb(0, 119, 255);
+    text-align: center;
+    font-size: 1.4em;
+}
+
 ul, li {
     color: rgb(255, 252, 246);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
 p {
     color: rgb(235, 235, 235);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 19px;
 }
 
-h1 {
-    color: rgb(0, 119, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 2.5em;
-    border: 2.5px rgb(0, 119, 255) solid;
-    border-radius: 3%;
-    padding: 30px;
-    background-color: rgb(36, 36, 36);
-}
-
-h3 {
-    color: rgb(0, 119, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 1.4em;
-}
-
 img {
-    border: rgb(245, 204, 68) 3px double;
+    border: rgb(255, 196, 0) 3px double;
     padding: 4px;
     border-radius: 3%;
     filter: brightness(1.5);
@@ -92,9 +98,9 @@ div {
 footer {
     color: white;
     background-color: rgb(12, 12, 12);
-    border: solid rgb(37, 35, 0) 2px;
-    padding: 10px;
-    border-radius: 10%;
+    border-top: solid rgb(255, 196, 0) 2px;
+    padding: 20px;
+    border-radius: 30px 30px 0 0;
     text-align: center;
     font-size: 1.25em;
 }
