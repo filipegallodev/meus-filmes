@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(27, 27, 27);
+    background-image: linear-gradient(to top, rgb(8, 8, 8), rgb(24, 21, 5));
 }
 
 h2 {
@@ -29,6 +29,11 @@ h1 {
     font-family: sans-serif;
     text-align: center;
     font-size: 2.5em;
+    border: 2.5px rgb(255, 236, 174) solid;
+    border-radius: 3%;
+    padding: 30px;
+    background-color: rgba(10, 8, 0, 0.514);
+    text-shadow: rgb(255, 236, 174) 0.4px 0.4px;
 }
 
 h3 {
@@ -38,10 +43,59 @@ h3 {
     font-size: 1.4em;
 }
 
+img {
+    border: rgb(245, 204, 68) 3px double;
+    padding: 4px;
+    border-radius: 3%;
+    filter: brightness(1.5);
+}
+
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* Overlay sobre imagens */
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    border: rgb(177, 238, 162) 3px double;
+    padding: 4px;
+    border-radius: 3%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: #bce9a8;
+}
+
+.container:hover .overlay {
+    opacity: 0.6;
+}
+/* Fim do overlay */
+
 footer {
     color: white;
     background-color: rgb(12, 12, 12);
-    shape-margin: 100px;
+    border: solid rgb(37, 35, 0) 2px;
+    padding: 10px;
+    border-radius: 10%;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
