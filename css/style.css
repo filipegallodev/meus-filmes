@@ -6,8 +6,8 @@ body {
 }
 
 .header {
-    border-bottom: 2.5px rgb(255, 196, 0) solid;
-    border-left: 3.5px rgb(255, 196, 0) solid;
+    border-bottom: 2.5px rgb(255, 238, 0) solid;
+    border-left: 3.5px rgb(255, 238, 0) solid;
     border-radius: 0 0 100px 100px;
     padding: 0.5% 15%;
     background-color: rgb(31, 31, 31);
@@ -37,6 +37,12 @@ h3 {
     font-size: 1.4em;
 }
 
+h4 {
+    color: rgb(224, 227, 255);
+    text-align: center;
+    font-size: 1.3em;
+}
+
 ul, li {
     color: rgb(255, 252, 246);
     text-align: center;
@@ -63,15 +69,27 @@ div {
 }
 
 /* Overlay sobre imagens */
+.imagemetexto {
+    border-bottom: 3px double rgb(255, 238, 0);
+    border-radius: 10%;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 65%;
+    margin-bottom: 75px;
+    box-shadow: 0px 10px rgb(51, 46, 0, 0.267);
+}
+
 .container {
     position: relative;
-    width: 50%;
+    width: 85%;
 }
 
 .image {
     display: block;
     width: 100%;
     height: auto;
+    box-shadow: 0px 0px 20px rgb(17, 17, 17);
 }
 
 .overlay {
@@ -95,10 +113,30 @@ div {
 }
 /* Fim do overlay */
 
+/* Video do YouTube responsivo */
+.video-container {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30%;
+    margin-bottom: 75px;
+    width: 65%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Fim do video do YouTube responsivo */
+
 footer {
     color: white;
     background-color: rgb(12, 12, 12);
-    border-top: solid rgb(255, 196, 0) 2px;
+    border-top: solid rgb(255, 238, 0) 2px;
     padding: 20px;
     border-radius: 30px 30px 0 0;
     text-align: center;
